@@ -7,84 +7,84 @@ status = "actively-developed"
 repository = "najamelan/ws_stream_tungstenite"
 
 [build-dependencies]
-rustc_version = "^0.4"
+rustc_version = "0.4.0"
 
 [dependencies]
 [dependencies.async-tungstenite]
 default-features = false
-version = "^0.13"
+version = "0.15.0"
 
 [dependencies.async_io_stream]
 default-features = false
 features = ["map_pharos"]
-version = "^0.3"
+version = "0.3.2"
 
 [dependencies.bitflags]
 default-features = false
-version = "^1"
+version = "1.3.2"
 
 [dependencies.futures-core]
 default-features = false
-version = "^0.3"
+version = "0.3.17"
 
 [dependencies.futures-io]
 default-features = false
-version = "^0.3"
+version = "0.3.17"
 
 [dependencies.futures-sink]
 default-features = false
-version = "^0.3"
+version = "0.3.17"
 
 [dependencies.futures-util]
 default-features = false
-version = "^0.3"
+version = "0.3.17"
 
 [dependencies.log]
 default-features = false
-version = "^0.4"
+version = "0.4.14"
 
 [dependencies.pharos]
 default-features = false
-version = "^0.5"
+version = "0.5.2"
 
 [dependencies.tokio]
 default-features = false
 optional = true
-version = "^1"
+version = "1.11.0"
 
 [dependencies.tungstenite]
 default-features = false
-version = "^0.13"
+version = "0.15.0"
 
 [dev-dependencies]
-assert_matches = "^1.3"
-async_progress = "^0.2"
-asynchronous-codec = "^0.6"
-flexi_logger = "^0.18"
-futures = "^0.3"
-futures-test = "^0.3"
-futures-timer = "^3"
-futures_ringbuf = "^0.3"
-pin-utils = "^0.1"
-url = "^2"
+assert_matches = "1.5.0"
+async_progress = "0.2.0"
+asynchronous-codec = "0.6.0"
+flexi_logger = "0.19.3"
+futures = "0.3.17"
+futures-test = "0.3.17"
+futures-timer = "3.0.2"
+futures_ringbuf = "0.3.1"
+pin-utils = "0.1.0"
+url = "2.2.2"
 
 [dev-dependencies.async-std]
 features = ["attributes"]
-version = "^1"
+version = "1.10.0"
 
 [dev-dependencies.async-tungstenite]
 features = ["tokio-runtime", "async-std-runtime"]
-version = "^0.13"
+version = "0.15.0"
 
 [dev-dependencies.tokio]
 default-features = false
 features = ["net", "rt", "rt-multi-thread", "macros"]
-version = "^1"
+version = "1.11.0"
 
 [dev-dependencies.tokio-util]
 default-features = false
 features = ["codec"]
-version = "^0.6"
+version = "0.6.8"
 
 [features]
 default = []
